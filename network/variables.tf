@@ -17,3 +17,14 @@ variable "public_subnet_ciders" {
   type    = list(string)
   default = []
 }
+
+
+variable "private_subnet_ciders" {
+  type    = list(string)
+  default = []
+}
+
+variable "db_subnet_ciders" {
+  type    = list(string)
+  default = []
+}

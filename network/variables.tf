@@ -12,3 +12,7 @@ variable "vpc_cidr_block" {
   type        = string
   default     = null
 }
+
+variable "public_subnet_ciders" {
+  default = []
+}
